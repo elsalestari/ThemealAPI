@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Search for a Meal</h1>
+            <p>Find your favorite meals and recipes</p>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search by meal name or ingredient...">
+            </div>
+        </header>
+        <div class="stats">
+            <p>🍖 <b>Total Meals:</b> <span id="total-meals">0</span> &nbsp; 🍖 <b>Total Ingredients:</b> 575 &nbsp; 🖼️ <b>Images:</b> 304</p>
+        </div>
+        <p id="search-info" class="search-info"></p>
+        <div class="gallery" id="meal-gallery"></div>
+        <button id="random-meal-btn">Get a Random Meal</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
