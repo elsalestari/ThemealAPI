@@ -1,4 +1,4 @@
-# ThemealIP
+# ThemealAPI
 Aplikasi web yang memungkinkan pengguna untuk mencari resep makanan berdasarkan nama atau bahan. Aplikasi ini menggunakan API dari TheMealDB https://www.themealdb.com/ untuk mendapatkan data makanan dan menampilkannya dalam format yang menarik.
 
 ## API Endpoints:
